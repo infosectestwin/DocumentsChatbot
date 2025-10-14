@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-google-genai
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+pypdf
+python-docx
+docx2txt
+pandas
+openpyxl
