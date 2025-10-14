@@ -28,7 +28,8 @@ The app uses **free open-source AI** to analyze and respond intelligently.
 
 # -------------------- Gemini API Key Setup --------------------
 load_dotenv()
-gApi_key=os.getenv('GROQ-API-KEY')
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+gApi_key=os.getenv('GROQ_API_KEY')
 
 # -------------------- File Upload Section --------------------
 uploaded_files = st.file_uploader(
